@@ -37,7 +37,7 @@ function Home() {
       <Certification />
       <Achievements />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
