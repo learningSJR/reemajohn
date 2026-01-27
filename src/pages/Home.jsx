@@ -8,7 +8,6 @@ import Experience from "@/pages/Experience";
 import Subjects from "@/pages/Subjects";
 import Achievements from "@/pages/Achievements";
 import Contact from "@/pages/Contact";
-import Footer from "@/pages/Footer";
 import Skills from "@/pages/Skills";
 import Certification from "./Certification";
 
