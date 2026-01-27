@@ -1,0 +1,59 @@
+/* Teacher Portfolio Custom Theme */
+@plugin "daisyui/theme" {
+  name: reemasjr;
+  default: true;
+  prefersdark: false;
+  color-scheme: light;
+
+  /* ========== BASE COLORS ========== */
+
+  --color-base-100: #fff7fb;
+  --color-base-200: #fdecef;
+  --color-base-300: #f8d7de;
+  --color-base-content: #1e293b;
+
+  /* ========== PRIMARY (Rose Pink Feminine) ========== */
+
+  --color-primary: #ec4899;
+  --color-primary-content: #ffffff;
+
+  /* ========== SECONDARY (Academic Navy Blue) ========== */
+
+  --color-secondary: #1e3a8a;
+  --color-secondary-content: #ffffff;
+
+  /* ========== ACCENT (Commerce Gold Peach) ========== */
+
+  --color-accent: #f59e0b;
+  --color-accent-content: #1f2937;
+
+  /* ========== NEUTRAL (Professional Gray) ========== */
+
+  --color-neutral: #334155;
+  --color-neutral-content: #ffffff;
+
+  /* ========== STATUS COLORS ========== */
+
+  --color-success: #22c55e;
+  --color-success-content: #ffffff;
+
+  --color-warning: #fbbf24;
+  --color-warning-content: #1f2937;
+
+  --color-error: #ef4444;
+  --color-error-content: #ffffff;
+
+  --color-info: #38bdf8;
+  --color-info-content: #0f172a;
+
+  /* ========== BORDER RADIUS (Soft Elegant) ========== */
+
+  --radius-box: 1rem;
+  --radius-field: 0.5rem;
+  --radius-selector: 0.75rem;
+
+  /* ========== EFFECTS ========== */
+
+  --depth: 1;
+  --noise: 0;
+}
