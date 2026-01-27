@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Experience from "./pages/Experience";
 import Qualifications from "./pages/Qualifications.jsx";
 import Availability from "./pages/Availability.jsx";
+import NotFound from "./pages/NotFound";
 
 const routes = createBrowserRouter([
   {
@@ -20,7 +21,7 @@ const routes = createBrowserRouter([
       { path: "experience", element: <Experience /> },
       { path: "education", element: <Qualifications /> },
       { path: "availability", element: <Availability /> },
-      { path: "*", element: <Notfound /> },
+      { path: "*", element: <NotFound /> },
     ],
   },
 ]);
