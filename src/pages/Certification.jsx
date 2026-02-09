@@ -30,8 +30,8 @@ function Certification() {
 
       {/* Slider Container */}
       <div
-        className="relative bg-base-200 rounded-2xl overflow-hidden shadow-lg 
-                      h-[6.25] sm:h-[8.75] md:h-[112.5] lg:h-[125]"
+        className="relative bg-base-200 rounded-2xl overflow-hidden shadow-lg
+             h-[50vh] sm:h-[60vh]"
       >
         {/* Image */}
         <img
