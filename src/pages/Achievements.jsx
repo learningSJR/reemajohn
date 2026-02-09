@@ -2,8 +2,8 @@ import React from "react";
 
 function Achievements() {
   return (
-    <>
-      <ul className="max-w-xl mx-auto space-y-4">
+    <div className="card">
+      <ul className="max-w-xl mx-auto space-y-4 mt-6">
         <li className="flex items-start gap-3">
           <span className="text-lg">🏆</span>
           <span>100% Board Exam Results (2023)</span>
@@ -20,7 +20,7 @@ function Achievements() {
         </li>
       </ul>
       ;
-    </>
+    </div>
   );
 }
 

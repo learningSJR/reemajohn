@@ -1,38 +1,52 @@
 export const certi = [
   {
     id: 1,
-    label: "Organising the classroom",
-    img: "Classroom-training-bc.jpg",
+    label: "TeachingEnglish: Organising the classroom",
+    img: "classroom_training_bc.jpg",
   },
   {
     id: 2,
-    label: "Digital-competences for teaching English",
-    img: "Digital-competencesbc.jpg",
+    label: "Digital competences for teaching English",
+    img: "digital_competencesbc.jpg",
   },
   {
     id: 3,
-    label: "CBSE_Art Integrated Learning",
-    img: "CBSE_Art_Integrated_Learning.jpg",
+    label: "English in the multilingual classroom",
+    img: "englishinMultilingualbc.jpg",
   },
   {
     id: 4,
-    label: "CBSE_Curriculum and Inclusive Classrooms",
-    img: "CBSE_curriculum_and_incl.jpg",
+    label: "Empowering Teachers with Artificial Intelligence (AI)",
+    img: "artificialIntelligence.jpg",
   },
   {
     id: 5,
-    label:
-      "CBSE_Developing Personal-Social Qualities(PSQ) for Creating a Safety and Healthy School Enviornment",
-    img: "CBSE_Developing_PSQ.jpg",
+    label: "Empowering Teachers with Artificial Intelligence (AI) - Phase II",
+    img: "artificialIntelligence_two.jpg",
   },
   {
     id: 6,
-    label: "CBSE_Integrating Gender in the Teaching Learning Process",
-    img: "CBSE_Integrating_Gender_in_the_Teaching_Learning_Process.jpg",
+    label: "Microlearning and Nano Courses to Enhance Teaching-Learning",
+    img: "microlearning.jpg",
   },
   {
     id: 7,
-    label: "CTSA_Integration of ICT in Teaching, Learning and Assessment",
-    img: "CTSA_Integration_of_ICT_in_Teaching_Learning_and_Assessment.jpg",
+    label: "Online and Digital Education in the Lens of NEP 2020",
+    img: "onlineAndDigitalEduNEP.jpg",
+  },
+  {
+    id: 8,
+    label: "Open Education Resources (OER): Innovating Education",
+    img: "openEducationResource.jpg",
+  },
+  {
+    id: 9,
+    label: "Innovate & Lead: School Transformation Strategies",
+    img: "transformationStrategies.jpg",
+  },
+  {
+    id: 10,
+    label: "CPD (Continuing Professional Development)",
+    img: "cpd.jpg",
   },
 ];
