@@ -2,15 +2,25 @@ import React from "react";
 
 function Achievements() {
   return (
-    <section className="p-10 bg-base-100">
-      <h2 className="text-3xl font-bold text-center mb-6">Achievements</h2>
+    <>
+      <ul className="max-w-xl mx-auto space-y-4">
+        <li className="flex items-start gap-3">
+          <span className="text-lg">🏆</span>
+          <span>100% Board Exam Results (2023)</span>
+        </li>
 
-      <ul className="max-w-xl mx-auto space-y-3">
-        <li>🏆 100% Board Exam Results (2023)</li>
-        <li>🏆 Best Teacher Award (2021)</li>
-        <li>🏆 Organized Science Exhibition Programs</li>
+        <li className="flex items-start gap-3">
+          <span className="text-lg">🏆</span>
+          <span>Best Teacher Award (2021)</span>
+        </li>
+
+        <li className="flex items-start gap-3">
+          <span className="text-lg">🏆</span>
+          <span>Organized Science Exhibition Programs</span>
+        </li>
       </ul>
-    </section>
+      ;
+    </>
   );
 }
 

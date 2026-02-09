@@ -9,7 +9,10 @@ function Skills() {
       <div className="flex justify-center gap-4 flex-wrap">
         <ul>
           {skills.map((sub, i) => (
-            <li key={i} className="badge badge-primary p-4 flex flex-col mt-2">
+            <li
+              key={i}
+              className="bg-primary text-white rounded-xl p-3 text-xs sm:text-sm shadow w-full sm:w-auto mb-2"
+            >
               {sub}
             </li>
           ))}
