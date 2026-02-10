@@ -19,11 +19,9 @@ function Contact() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:5000/send-email", {
+      const res = await fetch("/.netlify/functions/send-email", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
 
@@ -36,6 +34,7 @@ function Contact() {
         setStatus("Failed to send message ❌");
       }
     } catch (error) {
+      console.error(error);
       setStatus("Server error ❌");
     }
 
@@ -43,10 +42,16 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="p-10 bg-base-200">
+    <section
+      id="contact"
+      className="p-10 bg-base-200  flex flex-col justify-center mx-auto items-center"
+    >
       <h2 className="text-3xl font-bold text-center mb-6">Contact</h2>
 
-      <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-4">
+      <form
+        onSubmit={handleSubmit}
+        className="w-full max-w-md bg-base-100 p-6 rounded-xl shadow space-y-4"
+      >
         <input
           name="name"
           value={formData.name}
@@ -70,10 +75,10 @@ function Contact() {
           name="message"
           value={formData.message}
           onChange={handleChange}
-          className="textarea textarea-bordered w-full"
+          className="textarea textarea-bordered w-full min-h-30"
           placeholder="Message"
           required
-        ></textarea>
+        />
 
         <button
           type="submit"
@@ -83,7 +88,7 @@ function Contact() {
           {loading ? "Sending..." : "Send Message"}
         </button>
 
-        {status && <p className="text-center text-sm mt-2">{status}</p>}
+        {status && <p className="text-center text-sm">{status}</p>}
       </form>
     </section>
   );

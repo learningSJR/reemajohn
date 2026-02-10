@@ -29,3 +29,10 @@ client/.env
 *.njsproj
 *.sln
 *.sw?
+.env
+.env.*
+node_modules
+
+
+# Ignore backend server (not used on Netlify)
+server/
