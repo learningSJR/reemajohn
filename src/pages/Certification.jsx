@@ -23,7 +23,7 @@ function Certification() {
   }, [total]);
 
   return (
-    <div className="container mx-auto px-4 mt-6">
+    <div className="mx-auto mt-6">
       <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6 text-slate-800">
         Certification
       </h2>

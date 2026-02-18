@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Experience from "./pages/Experience";
 import Qualifications from "./pages/Qualifications.jsx";
 import Availability from "./pages/Availability.jsx";
+import Contact from "./pages/Contact.jsx";
 
 const routes = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ const routes = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "about", element: <About /> },
+      { path: "contact", element: <Contact /> },
       { path: "experience", element: <Experience /> },
       { path: "education", element: <Qualifications /> },
       { path: "availability", element: <Availability /> },

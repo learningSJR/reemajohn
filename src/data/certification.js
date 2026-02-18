@@ -1,7 +1,7 @@
 export const certi = [
   {
     id: 1,
-    label: "TeachingEnglish: Organising the classroom",
+    label: "Teaching English: Organising the classroom",
     img: "classroom_training_bc.jpg",
   },
   {

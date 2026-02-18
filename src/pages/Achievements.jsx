@@ -8,11 +8,11 @@ function Achievements() {
           <span className="text-lg">🏆</span>
           <span>100% Board Exam Results (2023)</span>
         </li>
-
+        {/* 
         <li className="flex items-start gap-3">
           <span className="text-lg">🏆</span>
           <span>Best Teacher Award (2021)</span>
-        </li>
+        </li> */}
 
         <li className="flex items-start gap-3">
           <span className="text-lg">🏆</span>

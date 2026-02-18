@@ -42,10 +42,7 @@ function Contact() {
   };
 
   return (
-    <section
-      id="contact"
-      className="p-10 bg-base-200  flex flex-col justify-center mx-auto items-center"
-    >
+    <div className="p-10 bg-base-200  flex flex-col justify-center mx-auto items-center h-screen">
       <h2 className="text-3xl font-bold text-center mb-6">Contact</h2>
 
       <form
@@ -90,7 +87,7 @@ function Contact() {
 
         {status && <p className="text-center text-sm">{status}</p>}
       </form>
-    </section>
+    </div>
   );
 }
 

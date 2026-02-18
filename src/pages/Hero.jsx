@@ -1,6 +1,20 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Hero() {
+  const navigate = useNavigate();
+  const handleContactClick = () => {
+    navigate("/contact");
+  };
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/Reema_John_Resume.pdf";
+    link.download = "Reema_John_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="hero min-h-screen bg-base-200 relative overflow-hidden animate-[(--animate-fade)]">
       {/* Background Corner Image */}
@@ -40,8 +54,20 @@ function Hero() {
           </p>
 
           <div className="mt-6 flex justify-center gap-4">
-            <button className="btn btn-primary">Download Resume</button>
-            <button className="btn btn-outline">Contact Me</button>
+            <button
+              className="btn btn-primary"
+              id="download"
+              onClick={handleDownload}
+            >
+              Download Resume
+            </button>
+            <button
+              className="btn btn-outline"
+              id="contact"
+              onClick={handleContactClick}
+            >
+              Contact Me
+            </button>
           </div>
         </div>
       </div>
