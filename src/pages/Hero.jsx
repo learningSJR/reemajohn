@@ -46,11 +46,13 @@ function Hero() {
 
           <p className="max-w-3xl mx-auto">
             Dedicated and result-oriented Post Graduate Teacher specializing in
-            Business Studies and Marketing, with 2 years and overall 10+ of
-            teaching experience. Skilled in lesson planning, innovative teaching
-            methodologies, student assessment, and fostering analytical and
-            critical thinking. Passionate about preparing students for academic
-            excellence and real-world business challenges.
+            Business Studies and Marketing, with{" "}
+            <span className="font-bold">8 </span>years and overall{" "}
+            <span className="font-bold">10+</span>of teaching experience.
+            Skilled in lesson planning, innovative teaching methodologies,
+            student assessment, and fostering analytical and critical thinking.
+            Passionate about preparing students for academic excellence and
+            real-world business challenges.
           </p>
 
           <div className="mt-6 flex justify-center gap-4">
