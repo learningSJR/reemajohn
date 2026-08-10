@@ -53,7 +53,7 @@ function Contact() {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className="input input-bordered w-full"
+          className="input input-bordered w-full "
           placeholder="Name"
           required
         />
